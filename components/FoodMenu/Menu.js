@@ -30,7 +30,7 @@ const Menu = () => {
     const ctx = useContext(CartStaus)
 
     const fetchData = async() => {
-        const url = "https://food-order-app-3bd04-default-rtdb.firebaseio.com/foodDB.json"
+        const url = ""//Enter your link to firebase db here
         const response = await fetch(url)
         const data = await response.json()
 
