@@ -49,8 +49,7 @@ const Check = () => {
   const submitFormHandler = async (event) => {
     event.preventDefault();
 
-    const url =
-      "https://food-order-app-3bd04-default-rtdb.firebaseio.com/orders.json";
+    const url = "" //Fireabse link
     let response = await fetch(url, {
       method: "POST",
       headers: {
