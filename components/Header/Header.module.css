@@ -1,0 +1,49 @@
+
+.Box{
+    width:75%;
+    background-color:white; 
+    border-radius:70px;
+    padding:20px;
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform:translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.Box button{
+    
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(121,9,30);
+    background: linear-gradient(121deg, rgba(121,9,30,1) 0%, rgba(94,0,0,1) 0%, rgba(250,12,12,1) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.Box button:hover{
+    background:linear-gradient(240deg, rgba(121,9,30,1) 0%, rgba(94,0,0,1) 0%, rgba(250,12,12,1) 100%);
+}
+
+@media(max-width:325px){
+    .Box{
+        width: 92%;
+    }
+}
+
+@media(max-width:385px){
+    .Box{
+        width: 92%;
+    }
+}

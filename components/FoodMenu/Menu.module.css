@@ -1,0 +1,59 @@
+.Box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: -90px;
+}
+
+.Box h2{
+    text-align: center;
+}
+
+@media(max-width:800px){
+    .Box{
+        width: 80%;
+    }
+}
+
+@media(max-width:325px){
+    .Box{
+        margin-top: -130px;
+        width: 95%;
+    }
+}
+
+@media(max-width:380px){
+    .Box{
+        margin-top: -130px;
+        width: 95%;
+    }
+}
+
+
+@media(max-width:450px){
+    .Box{
+        margin-top: -120px;
+        width: 95%;
+    }
+}
+
+@media(max-width:780px){
+    .Box{
+        margin-top: -120px;
+        width: 85%;
+    }
+}
+
+@media(max-width:1025px){
+    .Box{
+        margin-top: -115px;
+    }
+}
+
+@media(max-width:1440px){
+    .Box{
+        margin-top: -115px;
+    }
+}
