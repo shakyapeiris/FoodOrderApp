@@ -7,7 +7,7 @@ const Order = () => {
     
     const fetch_data = useCallback(async() => {
         setLoading(true)
-        const url = "https://food-order-app-3bd04-default-rtdb.firebaseio.com/orders.json"
+        const url = ""//Firebase link
         const response = await fetch(url)
         const data = await response.json()
         let dataArr = []
